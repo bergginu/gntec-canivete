@@ -1,1 +1,1 @@
-{"plugins":["cordova-plugin-qr-barcode-scanner","cordova-plugin-camera"]}
+{"plugins":["cordova-plugin-qr-barcode-scanner","cordova-plugin-camera","cordova-plugin-splashscreen"]}

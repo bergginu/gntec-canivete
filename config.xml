@@ -1,12 +1,16 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="br.com.ginutec.canivete" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>gntec-canivete</name>
-    <description>Sample Apache Cordova App</description>
-    <author email="dev@cordova.apache.org" href="https://cordova.apache.org">
-        Apache Cordova Team
+    <description>Canivete da Ginutec</description>
+    <author email="ginu.berg@gmail.com" href="https://ginutec.com.br">
+        Waldemberg d. Ginú
     </author>
     <content src="index.html" />
+    <icon src="res/icon.png" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
+    <allow-intent href="geo:*" />
     <plugin name="cordova-plugin-qr-barcode-scanner" />
+    <splash src="res/icon.png" />
+    <preference name="SplashScreenDelay" value="10" />
 </widget>
